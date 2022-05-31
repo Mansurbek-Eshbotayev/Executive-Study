@@ -1,0 +1,35 @@
+.feature{
+  background-color: #FAFAFA;
+  padding: 55px 0;
+}
+
+.feature__title{
+  font-family: 'Roboto';
+  margin: 0;
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 27px;
+text-align: center;
+letter-spacing: 2.1px;
+text-transform: uppercase;
+color: #373737;
+opacity: 0.73;
+margin-bottom: 90px;
+}
+
+.feature__list{
+  @include list-rest;
+  @include display-justfiy-alain;
+  margin-bottom: 110px;
+}
+
+.feature__dot{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+}

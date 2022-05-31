@@ -1,0 +1,123 @@
+.test{
+  padding: 115px 0 100px 0;
+  background-color: #ffff;
+}
+
+.test__info {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.test__title{
+  margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 54px;
+  text-align: center;
+  color: #373737;  
+  margin-bottom: 25px;
+}
+
+.test__text{
+  margin: 0;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 38px;
+text-align: center;
+color: #7D7D7D;
+}
+
+.test__list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.test__item{
+  width: 435px;
+}
+
+.person__info{
+  margin-bottom: 30px;
+  padding-left: 90px;
+  position: relative;
+}
+
+.person__info::before{
+  content: "";
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  background-image: url(../images/man.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -7px;
+  left: 0px;
+}
+
+.person__info-men::before{
+  content: "";
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  background-image: url(../images/women.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -7px;
+  left: 0px;
+}
+
+
+
+.person__title{
+  margin: 0;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 26px;
+color: #37474F;
+margin-bottom: 4px;
+}
+
+.person__text{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #37474F;
+mix-blend-mode: normal;
+opacity: 0.65;
+}
+
+.person__bio{
+  margin: 0;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 31px;
+color: rgba(55, 71, 79, 0.721569);
+}
+
+.test__dot{
+  width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
